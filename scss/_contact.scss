@@ -1,74 +1,74 @@
 .contact {
-   padding: 100px;
-   background-color: #162c3b;
-   text-align: center;
+  padding: 100px;
+  background-color: #162c3b;
+  text-align: center;
 }
 
 .image {
-   background: url(/img/bg2.jpg);
-   background-size: cover;
-   background-position: center;
-   width: 50%;
+  background: url(/img/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
 }
 
 .redbg {
-   background: url(/img/red.jpg) !important;
-   background-size: cover;
-   background-position: center;
-   width: 50%;
+  background: url(/img/red.jpg) !important;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
 }
 
 .form {
-   .input-bx {
-      margin-bottom: 40px;
+  .input-bx {
+    margin-bottom: 40px;
 
-      input {
-         width: 100%;
-         background-color: transparent;
-         box-shadow: none;
-         border: none;
-         outline: none;
-         padding: 10px 0;
-         font-size: 18px;
-         font-weight: 300;
-         color: #fff;
-         border-bottom: 2px solid #fff;
+    input {
+      width: 100%;
+      background-color: transparent;
+      box-shadow: none;
+      border: none;
+      outline: none;
+      padding: 10px 0;
+      font-size: 18px;
+      font-weight: 300;
+      color: #fff;
+      border-bottom: 2px solid #fff;
 
-         &::placeholder {
-            color: #fff;
-         }
+      &::placeholder {
+        color: #fff;
       }
+    }
 
-      textarea {
-         width: 100%;
-         background-color: transparent;
-         box-shadow: none;
-         border: none;
-         outline: none;
-         padding: 10px 0;
-         font-size: 18px;
-         font-weight: 300;
-         color: #fff;
-         border-bottom: 2px solid #fff;
-         min-height: 150px;
+    textarea {
+      width: 100%;
+      background-color: transparent;
+      box-shadow: none;
+      border: none;
+      outline: none;
+      padding: 10px 0;
+      font-size: 18px;
+      font-weight: 300;
+      color: #fff;
+      border-bottom: 2px solid #fff;
+      min-height: 150px;
 
-         &::placeholder {
-            color: #fff;
-         }
+      &::placeholder {
+        color: #fff;
       }
+    }
 
-      input[type="submit"] {
-         width: 150px;
-         background-color: #fff;
-         color: #000;
-         cursor: pointer;
-         font-weight: 400;
-      }
-   }
+    input[type="submit"] {
+      width: 150px;
+      background-color: #fff;
+      color: #000;
+      cursor: pointer;
+      font-weight: 400;
+    }
+  }
 }
 
 @media (max-width: 991px) {
-   .contact {
-      padding: 50px;
-   }
+  .contact {
+    padding: 50px;
+  }
 }
