@@ -1,0 +1,37 @@
+.technology {
+   background-color: #3f8ffc;
+   width: 100%;
+   padding: 100px;
+   padding-top: 260px;
+   margin-top: -260px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   .content-bx {
+      max-width: 700px;
+      color: #fff;
+   }
+
+   .img-bx {
+      max-width: 250px;
+
+      img {
+         max-width: 100%;
+      }
+   }
+}
+
+@media (max-width: 991px) {
+   .technology {
+      padding: 50px;
+      padding-top: 300px;
+      justify-content: center;
+      flex-direction: column;
+
+      .img-bx {
+         margin-top: 40px;
+         max-width: 250px;
+      }
+   }
+}

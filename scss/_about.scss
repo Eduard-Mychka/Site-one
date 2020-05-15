@@ -1,0 +1,32 @@
+.about {
+  position: relative;
+  width: 100%;
+  display: flex;
+
+  .content-bx {
+    background: #162c3d;
+    padding: 100px;
+    width: 50%;
+  }
+
+  .img-bx {
+    background: url(/img/window.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .about {
+    flex-direction: column;
+
+    .content-bx,
+    .img-bx {
+      width: 100%;
+      padding: 50px;
+      min-height: 400px;
+      text-align: center;
+    }
+  }
+}
