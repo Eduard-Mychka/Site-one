@@ -5,14 +5,14 @@
 }
 
 .image {
-  background: url(/img/bg2.jpg);
+  background-image: url(/img/bg2.jpg);
   background-size: cover;
   background-position: center;
   width: 50%;
 }
 
 .redbg {
-  background: url(/img/red.jpg) !important;
+  background-image: url(/img/red.jpg) !important;
   background-size: cover;
   background-position: center;
   width: 50%;
